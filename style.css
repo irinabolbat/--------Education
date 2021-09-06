@@ -1,0 +1,226 @@
+body {
+	font-family: 'Myriad Pro', 'OpenSans Regular', sans-serif;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+div, p, input, button, form, span, a, ul, li{
+	box-sizing: border-box;;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Myriad Pro', sans-serif;
+    width: 462px;
+    height: 60px;
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+
+p {
+	line-height: 1.6em;
+    width: 462px;
+    height: 12px;
+    padding-bottom: 65px;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.logo{
+	height: 33px;
+	width: 121px;
+	padding-top: 30px;
+}
+
+.drop {
+	padding-right: 300px;
+	height: 33px;
+	width: 121px;
+	padding-top: 30px;
+}
+
+.upline {
+	display:flex; 
+	color: #fff;
+	text-align: center;
+}
+
+.upline a{
+	color: white;
+}
+
+.menu {
+	display:inline-flex; 
+	width: 600px; 
+	height: 133px; 
+	left: 592.667px; 
+	top: -222px;
+	padding-top: 20px;
+	padding-right: 46px;
+}
+
+.header {
+	background-image: linear-gradient(to right bottom, #6d0eff, #6500ff);
+	padding-top: 62px;
+	color: #fff;
+	padding-bottom: 130px;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.title{
+	font-size: 55px;
+}
+
+.btn{
+    padding-bottom: 80px;
+    color: white;
+    background-color: #ff5f60;
+	display: block;
+	width: 146px;
+	padding: 19px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.7s ease;
+    border-radius: 45px;
+}
+
+.desktop{
+    padding-top: 65px;
+}
+
+.wrap {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.image-student {
+	width: 270px;
+	float: left;
+}
+
+.sectionOne {
+	float:right;
+	padding-right: 250px;
+	padding-top: 300px;
+}
+
+.intro_sectionOne {
+	width: 580px;
+}
+
+.st1 {
+	padding-bottom: -60px;
+}
+
+.intro_sectionTwo {
+	padding-bottom: 105px;
+	width: 580px;
+	padding-top: 30px;
+}
+
+.title_section {
+	padding-top: 0px;
+	width: 410px;
+	padding-bottom: 35px;
+}
+
+.wrapTwo {
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+}
+
+.student_boy {
+	padding-top: 280px;
+	margin-right: 0;
+}
+
+.sectionTwo {
+	padding-top: 280px;
+	padding-left: 100px;
+	height: 500px;
+}
+
+.image-student_boy {
+	width: 250px;
+	float: right;
+	padding-top: 200px;
+	display:block;
+}
+
+.icons {
+	padding: 110px 350px 120px 350px;
+	margin-left: 0 auto;
+}
+
+.line {
+	width: 1170px;
+	margin: 0 auto;
+}
+.lines {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 27px;
+}
+
+.global_student {
+	width: 302px;
+	text-align: center;
+	background:url('img/global student.png') no-repeat center top;
+	padding-top: 90px;
+}
+
+.line-title {
+	font-size: 18px;
+	width: 290px;
+}
+
+.line-text {
+	margin-top: 7px;
+	width: 282px;
+}
+
+.success_rate {
+	width: 287px;
+	background:url('img/success rate.png') no-repeat center top;
+}
+
+.education_services {
+	background:url('img/education services.png') no-repeat center top;
+}
+
+hr {
+	width: 1480px;
+}
+
+.footer {
+	display:inline-flex; 
+	color: grey;
+	padding-left: 250px;
+	padding-right: 250px;
+	float: left;
+}
+
+nav {
+	display:inline-flex; 
+	padding-top: 18px;
+	justify-content: space-evenly;
+	width: 600px;
+	padding-left: 260px;
+	color: grey;
+}
